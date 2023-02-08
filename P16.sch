@@ -1,0 +1,997 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 16 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1700 4600 0    50   Input ~ 0
+NC1
+Wire Wire Line
+	1700 4600 1950 4600
+NoConn ~ 1950 4600
+$Comp
+L 74xx:74LS32 U10
+U 1 1 6386C71E
+P 1250 500
+F 0 "U10" H 1250 825 50  0000 C CNN
+F 1 "'LS32" H 1250 734 50  0000 C CNN
+F 2 "" H 1250 500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1250 500 50  0001 C CNN
+	1    1250 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U10
+U 2 1 6386D588
+P 1950 500
+F 0 "U10" H 1950 825 50  0000 C CNN
+F 1 "'LS32" H 1950 734 50  0000 C CNN
+F 2 "" H 1950 500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1950 500 50  0001 C CNN
+	2    1950 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U10
+U 4 1 6386EF3F
+P 2650 500
+F 0 "U10" H 2650 825 50  0000 C CNN
+F 1 "'LS32" H 2650 734 50  0000 C CNN
+F 2 "" H 2650 500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2650 500 50  0001 C CNN
+	4    2650 500 
+	1    0    0    -1  
+$EndComp
+Text Notes 1300 4450 0    50   ~ 0
+Document unconnected Pins:\n\nThese Pin are implicit High
+NoConn ~ 950  400 
+NoConn ~ 950  600 
+NoConn ~ 1550 500 
+NoConn ~ 1650 400 
+NoConn ~ 1650 600 
+NoConn ~ 2250 500 
+NoConn ~ 2350 400 
+NoConn ~ 2350 600 
+NoConn ~ 2950 500 
+$Comp
+L 74xx:74LS02 U24
+U 3 1 62C1CDF1
+P 6600 1500
+F 0 "U24" H 6600 1825 50  0000 C CNN
+F 1 "'LS02" H 6600 1734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6600 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 6600 1500 50  0001 C CNN
+	3    6600 1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6900 1500
+NoConn ~ 6150 1500
+NoConn ~ 5550 1600
+NoConn ~ 5550 1400
+$Comp
+L 74xx:74LS02 U24
+U 1 1 62BFA40D
+P 5850 1500
+F 0 "U24" H 5850 1825 50  0000 C CNN
+F 1 "'LS02" H 5850 1734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5850 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5850 1500 50  0001 C CNN
+	1    5850 1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6300 1400
+NoConn ~ 7750 1500
+NoConn ~ 7150 1600
+NoConn ~ 7150 1500
+NoConn ~ 7150 1400
+$Comp
+L 74xx:74LS10 U40
+U 3 1 625C298F
+P 7450 1500
+F 0 "U40" H 7450 1825 50  0000 C CNN
+F 1 "'LS10" H 7450 1734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7450 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 7450 1500 50  0001 C CNN
+	3    7450 1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6300 1600
+NoConn ~ 5450 1500
+NoConn ~ 4850 1600
+NoConn ~ 4850 1400
+$Comp
+L 74xx:74LS08 U23
+U 1 1 62A002F2
+P 5150 1500
+F 0 "U23" H 5150 1825 50  0000 C CNN
+F 1 "'S08" H 5150 1734 50  0000 C CNN
+F 2 "" H 5150 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5150 1500 50  0001 C CNN
+	1    5150 1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 1500
+NoConn ~ 4100 1500
+NoConn ~ 4000 1500
+NoConn ~ 3400 1500
+$Comp
+L 74xx:74LS04 U19
+U 3 1 6295F3B4
+P 4400 1500
+F 0 "U19" H 4400 1817 50  0000 C CNN
+F 1 "'S04" H 4400 1726 50  0000 C CNN
+F 2 "" H 4400 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4400 1500 50  0001 C CNN
+	3    4400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U19
+U 2 1 6295EE2B
+P 3700 1500
+F 0 "U19" H 3700 1817 50  0000 C CNN
+F 1 "'S04" H 3700 1726 50  0000 C CNN
+F 2 "" H 3700 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 1500 50  0001 C CNN
+	2    3700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP6
+U 7 1 640CD714
+P 1550 3550
+F 0 "RP6" H 1550 3800 50  0000 L CNN
+F 1 "1k" H 1550 3700 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 1470 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1550 3550 50  0001 C CNN
+	7    1550 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1550 3700
+$Comp
+L 74xx:74LS32 U13
+U 1 1 6644745F
+P 3350 500
+F 0 "U13" H 3350 825 50  0000 C CNN
+F 1 "'LS32" H 3350 734 50  0000 C CNN
+F 2 "" H 3350 500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3350 500 50  0001 C CNN
+	1    3350 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U13
+U 2 1 66449986
+P 4050 500
+F 0 "U13" H 4050 825 50  0000 C CNN
+F 1 "'LS32" H 4050 734 50  0000 C CNN
+F 2 "" H 4050 500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4050 500 50  0001 C CNN
+	2    4050 500 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4350 500 
+NoConn ~ 3750 600 
+NoConn ~ 3750 400 
+NoConn ~ 3650 500 
+NoConn ~ 3050 600 
+NoConn ~ 3050 400 
+$Comp
+L 74xx:74LS32 U76
+U 1 1 67531AB6
+P 4750 500
+F 0 "U76" H 4750 825 50  0000 C CNN
+F 1 "'S32" H 4750 734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4750 500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4750 500 50  0001 C CNN
+	1    4750 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U76
+U 3 1 67534CAD
+P 3700 2050
+F 0 "U76" H 3700 2375 50  0000 C CNN
+F 1 "'S32" H 3700 2284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3700 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3700 2050 50  0001 C CNN
+	3    3700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U76
+U 4 1 6753844D
+P 4400 2050
+F 0 "U76" H 4400 2375 50  0000 C CNN
+F 1 "'S32" H 4400 2284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4400 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4400 2050 50  0001 C CNN
+	4    4400 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 400 
+NoConn ~ 4450 600 
+NoConn ~ 5050 500 
+NoConn ~ 3400 1950
+NoConn ~ 3400 2150
+NoConn ~ 4000 2050
+NoConn ~ 4100 1950
+NoConn ~ 4100 2150
+NoConn ~ 4700 2050
+NoConn ~ 2400 4050
+$Comp
+L Device:R_Network07_Split RP5
+U 7 1 621F3CD4
+P 2400 3900
+F 0 "RP5" H 2498 3938 50  0000 L CNN
+F 1 "1k" H 2498 3847 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 2320 3900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2400 3900 50  0001 C CNN
+	7    2400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:7416 U30
+U 2 1 6254C34A
+P 1750 6200
+F 0 "U30" H 1750 6666 50  0000 C CNN
+F 1 "'16" H 1750 6575 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1750 6200 50  0001 C CNN
+F 3 "" H 1750 6200 50  0001 C CNN
+	2    1750 6200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1200 6200
+NoConn ~ 2300 6200
+$Comp
+L Device:R_Network07_Split RP7
+U 2 1 62B43BCE
+P 3000 4550
+F 0 "RP7" H 3098 4588 50  0000 L CNN
+F 1 "10k" H 3098 4497 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 2920 4550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3000 4550 50  0001 C CNN
+	2    3000 4550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 4700
+Text GLabel 1700 4750 0    50   Input ~ 0
+NC2
+Wire Wire Line
+	1700 4750 1950 4750
+NoConn ~ 1950 4750
+$Comp
+L Device:R_Network07_Split RP6
+U 2 1 62EED3A6
+P 1300 3550
+F 0 "RP6" H 1300 3800 50  0000 L CNN
+F 1 "1k" H 1300 3700 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 1220 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1300 3550 50  0001 C CNN
+	2    1300 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 3700
+$Comp
+L Device:R_Network09_Split RP?
+U 9 1 66323FDE
+P 4850 4000
+AR Path="/62192231/66323FDE" Ref="RP?"  Part="9" 
+AR Path="/6295ECAF/66323FDE" Ref="RP18"  Part="9" 
+F 0 "RP18" H 4800 4300 50  0000 L CNN
+F 1 "1k" H 4800 4200 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 4770 4000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4850 4000 50  0001 C CNN
+	9    4850 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4850 4150
+$Comp
+L Device:R_Network09_Split RP?
+U 9 1 66334DA1
+P 5100 4000
+AR Path="/62192231/66334DA1" Ref="RP?"  Part="9" 
+AR Path="/6295ECAF/66334DA1" Ref="RP17"  Part="9" 
+F 0 "RP17" H 5050 4300 50  0000 L CNN
+F 1 "1k" H 5050 4200 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 5020 4000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5100 4000 50  0001 C CNN
+	9    5100 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5100 4150
+$Comp
+L 74xx:74LS04 U71
+U 3 1 63B3D1F4
+P 8550 1450
+F 0 "U71" H 8550 1767 50  0000 C CNN
+F 1 "'LS04" H 8550 1676 50  0000 C CNN
+F 2 "" H 8550 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8550 1450 50  0001 C CNN
+	3    8550 1450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8250 1450
+NoConn ~ 8850 1450
+$Comp
+L 74xx:74LS00 U94
+U 1 1 63EB9077
+P 1750 2800
+F 0 "U94" H 1750 3125 50  0000 C CNN
+F 1 "'LS00" H 1750 3034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1750 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1750 2800 50  0001 C CNN
+	1    1750 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1450 2700
+NoConn ~ 1450 2900
+NoConn ~ 2050 2800
+$Comp
+L 74xx:74LS00 U94
+U 4 1 63EDB01F
+P 2450 2800
+F 0 "U94" H 2450 3125 50  0000 C CNN
+F 1 "'LS00" H 2450 3034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2450 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2450 2800 50  0001 C CNN
+	4    2450 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 2700
+NoConn ~ 2150 2900
+NoConn ~ 2750 2800
+$Comp
+L Device:R_Network07_Split RP?
+U 6 1 640B4708
+P 1700 5400
+AR Path="/62360F86/640B4708" Ref="RP?"  Part="4" 
+AR Path="/6295ECAF/640B4708" Ref="RP25"  Part="6" 
+F 0 "RP25" H 1631 5438 50  0000 R CNN
+F 1 "1k" H 1631 5347 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 1620 5400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1700 5400 50  0001 C CNN
+	6    1700 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP?
+U 7 1 640B4710
+P 2100 5400
+AR Path="/62360F86/640B4710" Ref="RP?"  Part="5" 
+AR Path="/6295ECAF/640B4710" Ref="RP25"  Part="7" 
+F 0 "RP25" H 2030 5438 50  0000 R CNN
+F 1 "1k" H 2030 5347 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 2020 5400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2100 5400 50  0001 C CNN
+	7    2100 5400
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1700 5550
+NoConn ~ 2100 5550
+$Comp
+L 74xx:74LS08 U111
+U 4 1 641B75C2
+P -1250 3000
+F 0 "U111" H -1250 3325 50  0000 C CNN
+F 1 "'S08" H -1250 3234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H -1250 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H -1250 3000 50  0001 C CNN
+	4    -1250 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ -1550 2900
+NoConn ~ -1550 3100
+NoConn ~ -950 3000
+$Comp
+L 74xx:74LS04 U112
+U 2 1 645374C6
+P 6550 3000
+F 0 "U112" H 6550 3317 50  0000 C CNN
+F 1 "'S04" H 6550 3226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6550 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6550 3000 50  0001 C CNN
+	2    6550 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 3000
+NoConn ~ 6850 3000
+$Comp
+L 74xx:74LS02 U95
+U 3 1 6478ACEE
+P 6600 2050
+F 0 "U95" H 6600 2375 50  0000 C CNN
+F 1 "'LS02" H 6600 2284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6600 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 6600 2050 50  0001 C CNN
+	3    6600 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6300 1950
+NoConn ~ 6300 2150
+NoConn ~ 6900 2050
+$Comp
+L 74xx:74LS02 U95
+U 4 1 6479661C
+P 7400 2050
+F 0 "U95" H 7400 2375 50  0000 C CNN
+F 1 "'LS02" H 7400 2284 50  0000 C CNN
+F 2 "" H 7400 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 7400 2050 50  0001 C CNN
+	4    7400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U96
+U 2 1 64B36201
+P 7450 2950
+F 0 "U96" H 7450 3267 50  0000 C CNN
+F 1 "'S04" H 7450 3176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7450 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7450 2950 50  0001 C CNN
+	2    7450 2950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7150 2950
+NoConn ~ 7750 2950
+$Comp
+L 74xx:74LS04 U96
+U 3 1 64B38ACA
+P 8150 2950
+F 0 "U96" H 8150 3267 50  0000 C CNN
+F 1 "'S04" H 8150 3176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8150 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8150 2950 50  0001 C CNN
+	3    8150 2950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7850 2950
+NoConn ~ 8450 2950
+$Comp
+L 74xx:74LS138 U99
+U 1 1 656474D6
+P 11000 1850
+F 0 "U99" H 10800 2300 50  0000 C CNN
+F 1 "SPARE" H 11150 2300 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 11000 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 11000 1850 50  0001 C CNN
+	1    11000 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10500 1550
+NoConn ~ 10500 1650
+NoConn ~ 10500 1750
+NoConn ~ 10500 2050
+NoConn ~ 10500 2150
+NoConn ~ 10500 2250
+NoConn ~ 11500 2250
+NoConn ~ 11500 2150
+NoConn ~ 11500 2050
+NoConn ~ 11500 1950
+NoConn ~ 11500 1850
+NoConn ~ 11500 1750
+NoConn ~ 11500 1650
+NoConn ~ 11500 1550
+$Comp
+L power:GND #PWR0663
+U 1 1 6566EB37
+P 11000 2550
+F 0 "#PWR0663" H 11000 2300 50  0001 C CNN
+F 1 "GND" H 11005 2377 50  0000 C CNN
+F 2 "" H 11000 2550 50  0001 C CNN
+F 3 "" H 11000 2550 50  0001 C CNN
+	1    11000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5P #PWR0664
+U 1 1 65670055
+P 11000 1250
+F 0 "#PWR0664" H 11000 1100 50  0001 C CNN
+F 1 "+5P" H 11015 1423 50  0000 C CNN
+F 2 "" H 11000 1250 50  0001 C CNN
+F 3 "" H 11000 1250 50  0001 C CNN
+	1    11000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U100
+U 1 1 65705C63
+P 12250 1850
+F 0 "U100" H 12050 2300 50  0000 C CNN
+F 1 "SPARE" H 12400 2300 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 12250 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 12250 1850 50  0001 C CNN
+	1    12250 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11750 1550
+NoConn ~ 11750 1650
+NoConn ~ 11750 1750
+NoConn ~ 11750 2050
+NoConn ~ 11750 2150
+NoConn ~ 11750 2250
+NoConn ~ 12750 2250
+NoConn ~ 12750 2150
+NoConn ~ 12750 2050
+NoConn ~ 12750 1950
+NoConn ~ 12750 1850
+NoConn ~ 12750 1750
+NoConn ~ 12750 1650
+NoConn ~ 12750 1550
+$Comp
+L power:GND #PWR0665
+U 1 1 65705C77
+P 12250 2550
+F 0 "#PWR0665" H 12250 2300 50  0001 C CNN
+F 1 "GND" H 12255 2377 50  0000 C CNN
+F 2 "" H 12250 2550 50  0001 C CNN
+F 3 "" H 12250 2550 50  0001 C CNN
+	1    12250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5P #PWR0666
+U 1 1 65705C7D
+P 12250 1250
+F 0 "#PWR0666" H 12250 1100 50  0001 C CNN
+F 1 "+5P" H 12265 1423 50  0000 C CNN
+F 2 "" H 12250 1250 50  0001 C CNN
+F 3 "" H 12250 1250 50  0001 C CNN
+	1    12250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U85
+U 1 1 6613847C
+P 9800 3350
+F 0 "U85" H 9800 3667 50  0000 C CNN
+F 1 "'S04" H 9800 3576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9800 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 9800 3350 50  0001 C CNN
+	1    9800 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9500 3350
+NoConn ~ 10100 3350
+$Comp
+L 74xx:74LS138 U101
+U 1 1 63E53329
+P 13500 1850
+F 0 "U101" H 13300 2300 50  0000 C CNN
+F 1 "SPARE" H 13650 2300 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 13500 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 13500 1850 50  0001 C CNN
+	1    13500 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13000 1550
+NoConn ~ 13000 1650
+NoConn ~ 13000 1750
+NoConn ~ 13000 2050
+NoConn ~ 13000 2150
+NoConn ~ 13000 2250
+NoConn ~ 14000 2250
+NoConn ~ 14000 2150
+NoConn ~ 14000 2050
+NoConn ~ 14000 1950
+NoConn ~ 14000 1850
+NoConn ~ 14000 1750
+NoConn ~ 14000 1650
+NoConn ~ 14000 1550
+$Comp
+L power:+5P #PWR0674
+U 1 1 63E53343
+P 13500 1250
+F 0 "#PWR0674" H 13500 1100 50  0001 C CNN
+F 1 "+5P" H 13515 1423 50  0000 C CNN
+F 2 "" H 13500 1250 50  0001 C CNN
+F 3 "" H 13500 1250 50  0001 C CNN
+	1    13500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP12
+U 7 1 6443F80A
+P 4000 5500
+F 0 "RP12" H 3950 5800 50  0000 L CNN
+F 1 "1k" H 3950 5700 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3920 5500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4000 5500 50  0001 C CNN
+	7    4000 5500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4000 5650
+$Comp
+L 74xx:74LS04 U144
+U 5 1 649EBC6D
+P 6950 3950
+F 0 "U144" H 6950 4267 50  0000 C CNN
+F 1 "'S04" H 6950 4176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6950 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6950 3950 50  0001 C CNN
+	5    6950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U144
+U 6 1 649EDCE7
+P 7650 3950
+F 0 "U144" H 7650 4267 50  0000 C CNN
+F 1 "'S04" H 7650 4176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7650 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7650 3950 50  0001 C CNN
+	6    7650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U123
+U 5 1 65206412
+P 6950 4500
+F 0 "U123" H 6950 4817 50  0000 C CNN
+F 1 "'S04" H 6950 4726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6950 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6950 4500 50  0001 C CNN
+	5    6950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U123
+U 6 1 65206418
+P 7650 4500
+F 0 "U123" H 7650 4817 50  0000 C CNN
+F 1 "'S04" H 7650 4726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7650 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7650 4500 50  0001 C CNN
+	6    7650 4500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6650 4500
+NoConn ~ 6650 3950
+NoConn ~ 7250 3950
+NoConn ~ 7250 4500
+NoConn ~ 7350 4500
+NoConn ~ 7950 4500
+NoConn ~ 7950 3950
+NoConn ~ 7350 3950
+$Comp
+L Device:R_Network07_Split RP12
+U 2 1 65C41EB4
+P 4250 5500
+F 0 "RP12" H 4349 5538 50  0000 L CNN
+F 1 "1k" H 4349 5447 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 4170 5500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4250 5500 50  0001 C CNN
+	2    4250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP12
+U 3 1 65C49019
+P 4500 5500
+F 0 "RP12" H 4599 5538 50  0000 L CNN
+F 1 "1k" H 4599 5447 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 4420 5500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4500 5500 50  0001 C CNN
+	3    4500 5500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4500 5650
+NoConn ~ 4250 5650
+NoConn ~ 14350 1550
+NoConn ~ 14350 1650
+NoConn ~ 14350 1750
+NoConn ~ 14350 2150
+NoConn ~ 15350 1950
+NoConn ~ 15350 1550
+$Comp
+L 74xx:74LS49 U34
+U 1 1 652501D6
+P 14850 1850
+F 0 "U34" H 14650 2300 50  0000 C CNN
+F 1 "SPARE" H 15000 2300 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 14850 1850 50  0001 C CNN
+F 3 "" H 14850 1850 50  0001 C CNN
+	1    14850 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14350 1850
+NoConn ~ 15350 1650
+NoConn ~ 15350 1750
+NoConn ~ 15350 1850
+NoConn ~ 15350 2050
+NoConn ~ 15350 2150
+$Comp
+L power:GND #PWR0673
+U 1 1 6525640F
+P 13500 2550
+F 0 "#PWR0673" H 13500 2300 50  0001 C CNN
+F 1 "GND" H 13505 2377 50  0000 C CNN
+F 2 "" H 13500 2550 50  0001 C CNN
+F 3 "" H 13500 2550 50  0001 C CNN
+	1    13500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0705
+U 1 1 652566C6
+P 14850 2450
+F 0 "#PWR0705" H 14850 2200 50  0001 C CNN
+F 1 "GND" H 14855 2277 50  0000 C CNN
+F 2 "" H 14850 2450 50  0001 C CNN
+F 3 "" H 14850 2450 50  0001 C CNN
+	1    14850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5P #PWR0706
+U 1 1 65256F26
+P 14850 1250
+F 0 "#PWR0706" H 14850 1100 50  0001 C CNN
+F 1 "+5P" H 14865 1423 50  0000 C CNN
+F 2 "" H 14850 1250 50  0001 C CNN
+F 3 "" H 14850 1250 50  0001 C CNN
+	1    14850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U53
+U 1 1 6554D449
+P 12050 4000
+F 0 "U53" H 12050 4317 50  0000 C CNN
+F 1 "'LS14" H 12050 4226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12050 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 12050 4000 50  0001 C CNN
+	1    12050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U53
+U 2 1 6554F6C8
+P 12050 4500
+F 0 "U53" H 12050 4817 50  0000 C CNN
+F 1 "'LS14" H 12050 4726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12050 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 12050 4500 50  0001 C CNN
+	2    12050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U53
+U 3 1 65552641
+P 12050 5000
+F 0 "U53" H 12050 5317 50  0000 C CNN
+F 1 "'LS14" H 12050 5226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12050 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 12050 5000 50  0001 C CNN
+	3    12050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U53
+U 5 1 6555519D
+P 12050 5500
+F 0 "U53" H 12050 5817 50  0000 C CNN
+F 1 "'LS14" H 12050 5726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12050 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 12050 5500 50  0001 C CNN
+	5    12050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U53
+U 6 1 65557BCD
+P 12050 6000
+F 0 "U53" H 12050 6317 50  0000 C CNN
+F 1 "'LS14" H 12050 6226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12050 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 12050 6000 50  0001 C CNN
+	6    12050 6000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11750 4000
+NoConn ~ 12350 4000
+NoConn ~ 11750 4500
+NoConn ~ 12350 4500
+NoConn ~ 11750 5000
+NoConn ~ 12350 5000
+NoConn ~ 11750 5500
+NoConn ~ 12350 5500
+NoConn ~ 11750 6000
+NoConn ~ 12350 6000
+$Comp
+L 74xx:74LS00 U87
+U 2 1 64013D1E
+P 1050 2800
+F 0 "U87" H 1050 3125 50  0000 C CNN
+F 1 "'LS00" H 1050 3034 50  0000 C CNN
+F 2 "" H 1050 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1050 2800 50  0001 C CNN
+	2    1050 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 750  2700
+NoConn ~ 750  2900
+NoConn ~ 1350 2800
+$Comp
+L 74xx:74LS20 U107
+U 2 1 64F69E3C
+P 1600 1800
+F 0 "U107" H 1600 2175 50  0000 C CNN
+F 1 "'LS20" H 1600 2084 50  0000 C CNN
+F 2 "" H 1600 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 1600 1800 50  0001 C CNN
+	2    1600 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 1650
+NoConn ~ 1300 1750
+NoConn ~ 1300 1850
+NoConn ~ 1300 1950
+NoConn ~ 1900 1800
+$Comp
+L 74xx:74LS08 U130
+U 2 1 6400B5E9
+P -2100 3000
+F 0 "U130" H -2100 3325 50  0000 C CNN
+F 1 "'S08" H -2100 3234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H -2100 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H -2100 3000 50  0001 C CNN
+	2    -2100 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ -2400 2900
+NoConn ~ -2400 3100
+NoConn ~ -1800 3000
+$Comp
+L 74xx:74LS08 U130
+U 3 1 64019FC7
+P -2850 3000
+F 0 "U130" H -2850 3325 50  0000 C CNN
+F 1 "'S08" H -2850 3234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H -2850 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H -2850 3000 50  0001 C CNN
+	3    -2850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U130
+U 4 1 6401D9D6
+P -3550 3000
+F 0 "U130" H -3550 3325 50  0000 C CNN
+F 1 "'S08" H -3550 3234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H -3550 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H -3550 3000 50  0001 C CNN
+	4    -3550 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ -2550 3000
+NoConn ~ -3150 3100
+NoConn ~ -3150 2900
+NoConn ~ -3250 3000
+NoConn ~ -3850 2900
+NoConn ~ -3850 3100
+$Comp
+L 74xx:74LS04 U108
+U 3 1 63E0F2BB
+P 8350 3950
+F 0 "U108" H 8350 4267 50  0000 C CNN
+F 1 "'S04" H 8350 4176 50  0000 C CNN
+F 2 "" H 8350 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8350 3950 50  0001 C CNN
+	3    8350 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 3950
+NoConn ~ 8650 3950
+$Comp
+L Device:R_Network07_Split RP15
+U 1 1 653E101A
+P 4250 6900
+F 0 "RP15" H 4150 7300 50  0000 L CNN
+F 1 "1k" H 4050 6900 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 4170 6900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4250 6900 50  0001 C CNN
+	1    4250 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4250 7050
+$Comp
+L power:+5P #PWR0811
+U 1 1 653E30F8
+P 4250 6750
+F 0 "#PWR0811" H 4250 6600 50  0001 C CNN
+F 1 "+5P" H 4265 6923 50  0000 C CNN
+F 2 "" H 4250 6750 50  0001 C CNN
+F 3 "" H 4250 6750 50  0001 C CNN
+	1    4250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U91
+U 1 1 6569625F
+P 9800 3900
+F 0 "U91" H 9800 4217 50  0000 C CNN
+F 1 "'S04" H 9800 4126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9800 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 9800 3900 50  0001 C CNN
+	1    9800 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9500 3900
+NoConn ~ 10100 3900
+NoConn ~ 7100 1950
+NoConn ~ 7100 2150
+NoConn ~ 7700 2050
+$Comp
+L LOET.DE:75189 U153
+U 4 1 643B1AC5
+P 7350 5250
+F 0 "U153" H 7650 5567 50  0000 C CNN
+F 1 "75189" H 7650 5476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7645 5380 50  0001 C CNN
+F 3 "" H 7645 5380 50  0001 C CNN
+	4    7350 5250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7350 5250
+NoConn ~ 7350 5500
+NoConn ~ 7950 5250
+$Comp
+L Device:R_Network07_Split RP15
+U 3 1 647B653F
+P 4400 6900
+F 0 "RP15" H 4300 7100 50  0000 L CNN
+F 1 "1k" H 4499 6847 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 4320 6900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 6900 50  0001 C CNN
+	3    4400 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 7050
+$Comp
+L Device:R_Network07_Split RP15
+U 4 1 647BEC36
+P 4550 6900
+F 0 "RP15" H 4450 7200 50  0000 L CNN
+F 1 "1k" H 4648 6847 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 4470 6900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4550 6900 50  0001 C CNN
+	4    4550 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP15
+U 5 1 647C1FB0
+P 4700 6900
+F 0 "RP15" H 4600 7100 50  0000 L CNN
+F 1 "1k" H 4798 6847 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 4620 6900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4700 6900 50  0001 C CNN
+	5    4700 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4550 7050
+NoConn ~ 4700 7050
+$Comp
+L Device:R_Network07_Split RP15
+U 6 1 647CD639
+P 4850 6900
+F 0 "RP15" H 4750 7200 50  0000 L CNN
+F 1 "1k" H 4948 6847 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 4770 6900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4850 6900 50  0001 C CNN
+	6    4850 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4850 7050
+$EndSCHEMATC

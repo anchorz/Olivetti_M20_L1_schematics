@@ -1,0 +1,1008 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 12 16
+Title "08 Serial"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 2700 4900 2    50   ~ 0
+PZ106
+Text Label 2700 2600 2    50   ~ 0
+PZ108
+$Comp
+L LOET.DE:8251 U131
+U 1 1 636C46CD
+P 3250 4200
+F 0 "U131" H 3250 5381 50  0000 C CNN
+F 1 "8251" H 3250 5290 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 2900 5200 50  0001 C CNN
+F 3 "" H 2900 5200 50  0001 C CNN
+	1    3250 4200
+	1    0    0    -1  
+$EndComp
+Text Label 2450 2400 0    50   ~ 0
+PZ005
+Text Label 2450 4700 0    50   ~ 0
+PZ005
+$Comp
+L power:GND #PWR0234
+U 1 1 636CC6C4
+P 3250 5150
+F 0 "#PWR0234" H 3250 4900 50  0001 C CNN
+F 1 "GND" V 3255 5022 50  0000 R CNN
+F 2 "" H 3250 5150 50  0001 C CNN
+F 3 "" H 3250 5150 50  0001 C CNN
+	1    3250 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0235
+U 1 1 636CD023
+P 3250 2850
+F 0 "#PWR0235" H 3250 2600 50  0001 C CNN
+F 1 "GND" V 3255 2722 50  0000 R CNN
+F 2 "" H 3250 2850 50  0001 C CNN
+F 3 "" H 3250 2850 50  0001 C CNN
+	1    3250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5P #PWR0236
+U 1 1 636CF5CC
+P 3250 900
+F 0 "#PWR0236" H 3250 750 50  0001 C CNN
+F 1 "+5P" V 3265 1028 50  0000 L CNN
+F 2 "" H 3250 900 50  0001 C CNN
+F 3 "" H 3250 900 50  0001 C CNN
+	1    3250 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5P #PWR0237
+U 1 1 636CFF70
+P 3250 3200
+F 0 "#PWR0237" H 3250 3050 50  0001 C CNN
+F 1 "+5P" V 3265 3328 50  0000 L CNN
+F 2 "" H 3250 3200 50  0001 C CNN
+F 3 "" H 3250 3200 50  0001 C CNN
+	1    3250 3200
+	0    1    1    0   
+$EndComp
+Text GLabel 1850 2600 0    50   Output ~ 0
+IO_KBD
+Text Label 2450 2500 0    50   ~ 0
+PZ003
+Text Label 2450 4800 0    50   ~ 0
+PZ003
+Text GLabel 2150 1000 0    50   BiDi ~ 0
+DDD00
+Text GLabel 2150 1100 0    50   BiDi ~ 0
+DDD01
+Text GLabel 2150 1200 0    50   BiDi ~ 0
+DDD02
+Text GLabel 2150 1300 0    50   BiDi ~ 0
+DDD03
+Text GLabel 2150 1400 0    50   BiDi ~ 0
+DDD04
+Text GLabel 2150 1500 0    50   BiDi ~ 0
+DDD05
+Text GLabel 2150 1600 0    50   BiDi ~ 0
+DDD06
+Text GLabel 2150 1700 0    50   BiDi ~ 0
+DDD07
+Wire Wire Line
+	2700 1800 2350 1800
+Text Label 2400 1800 0    50   ~ 0
+DDD06
+Wire Wire Line
+	2700 1700 2350 1700
+Text Label 2400 1700 0    50   ~ 0
+DDD05
+Wire Wire Line
+	2700 1600 2350 1600
+Text Label 2400 1600 0    50   ~ 0
+DDD04
+Wire Wire Line
+	2700 1500 2350 1500
+Text Label 2400 1500 0    50   ~ 0
+DDD03
+Wire Wire Line
+	2700 1400 2350 1400
+Text Label 2400 1400 0    50   ~ 0
+DDD02
+Wire Wire Line
+	2700 1300 2350 1300
+Text Label 2400 1300 0    50   ~ 0
+DDD01
+Wire Wire Line
+	2700 1200 2350 1200
+Text Label 2400 1200 0    50   ~ 0
+DDD00
+Wire Wire Line
+	2700 1900 2350 1900
+Text Label 2400 1900 0    50   ~ 0
+DDD07
+Wire Wire Line
+	2700 4100 2350 4100
+Text Label 2400 4100 0    50   ~ 0
+DDD06
+Wire Wire Line
+	2700 4000 2350 4000
+Text Label 2400 4000 0    50   ~ 0
+DDD05
+Wire Wire Line
+	2700 3900 2350 3900
+Text Label 2400 3900 0    50   ~ 0
+DDD04
+Wire Wire Line
+	2700 3800 2350 3800
+Text Label 2400 3800 0    50   ~ 0
+DDD03
+Wire Wire Line
+	2700 3700 2350 3700
+Text Label 2400 3700 0    50   ~ 0
+DDD02
+Wire Wire Line
+	2700 3600 2350 3600
+Text Label 2400 3600 0    50   ~ 0
+DDD01
+Wire Wire Line
+	2700 3500 2350 3500
+Text Label 2400 3500 0    50   ~ 0
+DDD00
+Wire Wire Line
+	2700 4200 2350 4200
+Text Label 2400 4200 0    50   ~ 0
+DDD07
+Text Label 2450 2200 0    50   ~ 0
+PZ105
+Text Label 2450 2300 0    50   ~ 0
+AAA01
+Text Label 2450 2100 0    50   ~ 0
+PZ104
+Text Label 2450 4500 0    50   ~ 0
+PZ105
+Text Label 2450 4600 0    50   ~ 0
+AAA01
+Text Label 2450 4400 0    50   ~ 0
+PZ104
+Wire Wire Line
+	3800 1950 4250 1950
+Wire Wire Line
+	4250 1950 4250 2250
+Wire Wire Line
+	4250 2250 3800 2250
+Wire Wire Line
+	3800 2050 5550 2050
+$Comp
+L Device:R_Network07_Split RP10
+U 7 1 62229F42
+P 5550 1800
+F 0 "RP10" H 5648 1838 50  0000 L CNN
+F 1 "10k" H 5648 1747 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 5470 1800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5550 1800 50  0001 C CNN
+	7    5550 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1950 5550 2050
+Text Label 4350 2050 0    50   ~ 0
+R1404
+Text GLabel 5750 2050 2    50   Input ~ 0
+KBD_RxD
+Wire Wire Line
+	5750 2050 5550 2050
+Connection ~ 5550 2050
+Entry Wire Line
+	2250 3400 2350 3500
+Entry Wire Line
+	2250 3500 2350 3600
+Entry Wire Line
+	2250 3600 2350 3700
+Entry Wire Line
+	2250 3700 2350 3800
+Entry Wire Line
+	2250 3800 2350 3900
+Entry Wire Line
+	2250 3900 2350 4000
+Entry Wire Line
+	2250 4000 2350 4100
+Entry Wire Line
+	2250 4100 2350 4200
+Entry Wire Line
+	2250 1100 2350 1200
+Entry Wire Line
+	2250 1200 2350 1300
+Entry Wire Line
+	2250 1300 2350 1400
+Entry Wire Line
+	2250 1400 2350 1500
+Entry Wire Line
+	2250 1500 2350 1600
+Entry Wire Line
+	2250 1600 2350 1700
+Entry Wire Line
+	2250 1700 2350 1800
+Entry Wire Line
+	2250 1800 2350 1900
+Entry Wire Line
+	2150 1000 2250 1100
+Entry Wire Line
+	2150 1100 2250 1200
+Entry Wire Line
+	2150 1200 2250 1300
+Entry Wire Line
+	2150 1300 2250 1400
+Entry Wire Line
+	2150 1400 2250 1500
+Entry Wire Line
+	2150 1500 2250 1600
+Entry Wire Line
+	2150 1600 2250 1700
+Entry Wire Line
+	2150 1700 2250 1800
+$Comp
+L Connector:TestPoint B?
+U 1 1 622B72E1
+P 4700 1250
+AR Path="/61F921A8/622B72E1" Ref="B?"  Part="1" 
+AR Path="/626150ED/622B72E1" Ref="D.1"  Part="1" 
+F 0 "D.1" H 4803 1322 50  0000 C CNN
+F 1 "TestPoint" V 4804 1322 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4900 1250 50  0001 C CNN
+F 3 "~" H 4900 1250 50  0001 C CNN
+	1    4700 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint B?
+U 1 1 622B7C89
+P 4250 2250
+AR Path="/61F921A8/622B7C89" Ref="B?"  Part="1" 
+AR Path="/626150ED/622B7C89" Ref="C.1"  Part="1" 
+F 0 "C.1" V 4353 2322 50  0000 C CNN
+F 1 "TestPoint" V 4354 2322 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4450 2250 50  0001 C CNN
+F 3 "~" H 4450 2250 50  0001 C CNN
+	1    4250 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 2250
+Wire Wire Line
+	3800 1250 4700 1250
+Wire Wire Line
+	4250 2250 4250 2500
+Wire Wire Line
+	4700 1250 5250 1250
+Connection ~ 4700 1250
+Text Label 4850 1250 0    50   ~ 0
+Bl.DTR
+$Comp
+L power:GND #PWR0141
+U 1 1 622D0C19
+P 3900 1150
+F 0 "#PWR0141" H 3900 900 50  0001 C CNN
+F 1 "GND" V 3905 1022 50  0000 R CNN
+F 2 "" H 3900 1150 50  0001 C CNN
+F 3 "" H 3900 1150 50  0001 C CNN
+	1    3900 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1150 3900 1150
+Text Label 3850 1600 0    50   ~ 0
+PH023
+$Comp
+L power:GND #PWR0317
+U 1 1 622E04C7
+P 3900 1350
+F 0 "#PWR0317" H 3900 1100 50  0001 C CNN
+F 1 "GND" V 3905 1222 50  0000 R CNN
+F 2 "" H 3900 1350 50  0001 C CNN
+F 3 "" H 3900 1350 50  0001 C CNN
+	1    3900 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1350 3900 1350
+Text Label 3850 2150 0    50   ~ 0
+PZ112
+NoConn ~ 3800 2350
+NoConn ~ 3800 1850
+NoConn ~ 3800 1450
+Text GLabel 5650 2150 2    50   Input ~ 0
+INT_KBD_RX
+Wire Wire Line
+	3800 1750 4850 1750
+Text GLabel 4850 1750 2    50   Input ~ 0
+INT_KBD_TX
+Text Label 3850 1750 0    50   ~ 0
+PZ113
+Wire Wire Line
+	3800 2150 5650 2150
+Wire Wire Line
+	1850 2600 2700 2600
+Wire Wire Line
+	3800 1600 5750 1600
+Text GLabel 5750 1600 2    50   Input ~ 0
+KBD_TxD
+Text Label 3850 4450 0    50   ~ 0
+PZ110
+Wire Wire Line
+	3800 4450 5650 4450
+Text GLabel 5650 4450 2    50   Input ~ 0
+INT_SER_RX
+Text Label 3850 4050 0    50   ~ 0
+PZ111
+Wire Wire Line
+	3800 4050 5650 4050
+Text GLabel 5650 4050 2    50   Input ~ 0
+INT_SER_TX
+Text GLabel 1850 4900 0    50   Output ~ 0
+IO_SER
+Wire Wire Line
+	1850 4900 2700 4900
+Entry Wire Line
+	2000 4700 2100 4800
+Entry Wire Line
+	2000 4600 2100 4700
+Entry Wire Line
+	2000 4500 2100 4600
+Entry Wire Line
+	2000 4400 2100 4500
+Entry Wire Line
+	2000 4300 2100 4400
+Wire Wire Line
+	1050 2300 1900 2300
+Wire Wire Line
+	1050 2200 1900 2200
+Wire Wire Line
+	1050 2100 1900 2100
+Wire Wire Line
+	1050 2000 1900 2000
+Wire Wire Line
+	1050 1900 1900 1900
+Text GLabel 1050 1900 0    50   Output ~ 0
+RESET
+Text GLabel 1050 2000 0    50   Output ~ 0
+CLK.2MHz
+Text GLabel 1050 2100 0    50   Output ~ 0
+AAA01
+Text GLabel 1050 2200 0    50   Output ~ 0
+~RDIO
+Text GLabel 1050 2300 0    50   Output ~ 0
+~WRIO
+Wire Wire Line
+	2100 4800 2700 4800
+Wire Wire Line
+	2100 4700 2700 4700
+Wire Wire Line
+	2100 4600 2700 4600
+Wire Wire Line
+	2100 4500 2700 4500
+Wire Wire Line
+	2100 4400 2700 4400
+Wire Wire Line
+	2700 2100 2100 2100
+Wire Wire Line
+	2100 2200 2700 2200
+Wire Wire Line
+	2100 2300 2700 2300
+Wire Wire Line
+	2100 2400 2700 2400
+Entry Wire Line
+	2000 2000 2100 2100
+Entry Wire Line
+	2000 2100 2100 2200
+Entry Wire Line
+	2000 2200 2100 2300
+Entry Wire Line
+	2000 2300 2100 2400
+Entry Wire Line
+	2000 2400 2100 2500
+Entry Wire Line
+	1900 1900 2000 2000
+Entry Wire Line
+	1900 2000 2000 2100
+Entry Wire Line
+	1900 2100 2000 2200
+Entry Wire Line
+	1900 2200 2000 2300
+Entry Wire Line
+	1900 2300 2000 2400
+Wire Wire Line
+	9000 1050 9400 1050
+Text Label 9100 1050 0    50   ~ 0
+PH035
+Text GLabel 9000 1050 0    50   Output ~ 0
+V24:RING_IND
+Wire Wire Line
+	10000 1050 10400 1050
+Text Label 10100 1050 0    50   ~ 0
+PH037
+Text GLabel 10400 1050 2    50   Input ~ 0
+RING_IND
+Wire Wire Line
+	9000 1800 9400 1800
+Text Label 9100 1800 0    50   ~ 0
+PH034
+Text GLabel 9000 1800 0    50   Output ~ 0
+V24:SDET
+Wire Wire Line
+	10000 1800 10400 1800
+Text Label 10100 1800 0    50   ~ 0
+PH036
+Text GLabel 10400 1800 2    50   Input ~ 0
+SDET
+$Comp
+L LOET.DE:75189 U153
+U 1 1 66183373
+P 9400 1050
+F 0 "U153" H 9700 1367 50  0000 C CNN
+F 1 "75189" H 9700 1276 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9695 1180 50  0001 C CNN
+F 3 "" H 9695 1180 50  0001 C CNN
+	1    9400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOET.DE:75189 U153
+U 2 1 6618C3EE
+P 9400 1800
+F 0 "U153" H 9700 2117 50  0000 C CNN
+F 1 "75189" H 9700 2026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9695 1930 50  0001 C CNN
+F 3 "" H 9695 1930 50  0001 C CNN
+	2    9400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1300 9400 1300
+Text Label 9100 1300 0    50   ~ 0
+PH040
+Wire Wire Line
+	9000 2050 9400 2050
+Text Label 9100 2050 0    50   ~ 0
+PH039
+Wire Wire Line
+	2700 2500 2100 2500
+Text Label 1100 2300 0    50   ~ 0
+PZ003
+Text Label 1100 2200 0    50   ~ 0
+PZ005
+Text Label 1100 2100 0    50   ~ 0
+AAA01
+Text Label 1100 1900 0    50   ~ 0
+PZ104
+Text Label 1100 2000 0    50   ~ 0
+PZ105
+$Comp
+L LOET.DE:M20-Jumper.2 JP13
+U 1 1 6502D23C
+P 5050 5300
+F 0 "JP13" H 5050 5433 50  0000 C CNN
+F 1 "#C" H 5100 5500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5050 5400 50  0001 C CNN
+F 3 "" H 5050 5400 50  0001 C CNN
+	1    5050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOET.DE:M20-Jumper.1 JP14
+U 1 1 6503E1E3
+P 5050 5800
+F 0 "JP14" H 5050 6025 50  0000 C CNN
+F 1 "#P" H 5050 5934 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5050 5900 50  0001 C CNN
+F 3 "" H 5050 5900 50  0001 C CNN
+	1    5050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOET.DE:M20-Jumper.1 JP16
+U 1 1 650410A4
+P 9000 5250
+F 0 "JP16" H 9000 5475 50  0000 C CNN
+F 1 "#T" H 9000 5384 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9000 5350 50  0001 C CNN
+F 3 "" H 9000 5350 50  0001 C CNN
+	1    9000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOET.DE:M20-Jumper JP15
+U 1 1 65043081
+P 7250 5300
+F 0 "JP15" H 7250 5525 50  0000 C CNN
+F 1 "#N" H 7250 5434 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7250 5400 50  0001 C CNN
+F 3 "" H 7250 5400 50  0001 C CNN
+	1    7250 5300
+	1    0    0    -1  
+$EndComp
+Text Label 3850 4250 0    50   ~ 0
+PH019
+Wire Wire Line
+	5300 5300 5650 5300
+Text Label 5350 5300 0    50   ~ 0
+PH019
+Wire Wire Line
+	5300 5800 5650 5800
+Text Label 5350 5800 0    50   ~ 0
+PH019
+Wire Wire Line
+	4800 5300 4750 5300
+Wire Wire Line
+	4750 5300 4750 5800
+Wire Wire Line
+	4750 5800 4800 5800
+Connection ~ 4750 5800
+Wire Wire Line
+	5050 5400 5050 5500
+Text Label 5350 5500 0    50   ~ 0
+PH022
+Wire Wire Line
+	5050 5500 5650 5500
+Text Label 5350 6050 0    50   ~ 0
+PZ107
+Wire Wire Line
+	4750 6050 5050 6050
+Wire Wire Line
+	4750 5800 4750 6050
+Wire Wire Line
+	5050 5900 5050 6050
+Connection ~ 5050 6050
+Wire Wire Line
+	5050 6050 5650 6050
+Text Label 6650 6750 0    50   ~ 0
+PH022
+Wire Wire Line
+	6600 6750 7000 6750
+$Comp
+L LOET.DE:75188 U133
+U 1 1 6510EDB5
+P 7350 7250
+F 0 "U133" H 7350 8000 50  0000 C CNN
+F 1 "75188" H 7350 7900 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7400 6950 50  0001 C CNN
+F 3 "" H 7345 7980 50  0001 C CNN
+	1    7350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOET.DE:75189 U153
+U 3 1 651CB102
+P 9400 2500
+F 0 "U153" H 9700 2817 50  0000 C CNN
+F 1 "75189" H 9700 2726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9695 2630 50  0001 C CNN
+F 3 "" H 9695 2630 50  0001 C CNN
+	3    9400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2750 9400 2750
+Text Label 9100 2750 0    50   ~ 0
+PH038
+$Comp
+L Device:R_Network07_Split RP24
+U 7 1 651DAAB2
+P 8850 2750
+F 0 "RP24" V 8950 2750 50  0000 C CNN
+F 1 "27k" V 8750 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 8770 2750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8850 2750 50  0001 C CNN
+	7    8850 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 2500 9400 2500
+Text Label 9100 2500 0    50   ~ 0
+PH033
+Text GLabel 9000 2500 0    50   Output ~ 0
+V24:RXCLK
+Wire Wire Line
+	10000 2500 10400 2500
+Text Label 10100 2500 0    50   ~ 0
+PH032
+Text GLabel 10400 2500 2    50   Input ~ 0
+RXCLK
+Text Label 6850 5600 0    50   ~ 0
+PH032
+Text GLabel 6750 5600 0    50   Output ~ 0
+RXCLK
+Wire Wire Line
+	7250 5600 7250 5400
+Wire Wire Line
+	6750 5600 7250 5600
+Text GLabel 8000 6750 2    50   Input ~ 0
+V24:TXCLKA
+Wire Wire Line
+	7700 6750 8000 6750
+Text GLabel 8000 7350 2    50   Input ~ 0
+V24:DTR
+Wire Wire Line
+	7700 7350 8000 7350
+Text Label 7750 7350 0    50   ~ 0
+PH031
+Wire Wire Line
+	7000 7300 6950 7300
+Wire Wire Line
+	6950 7300 6950 7400
+Wire Wire Line
+	6950 7400 7000 7400
+$Comp
+L LOET.DE:M20-Jumper.1 JP17
+U 1 1 64992638
+P 4900 7250
+F 0 "JP17" H 4900 7475 50  0000 C CNN
+F 1 "#R" H 4900 7384 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4900 7350 50  0001 C CNN
+F 3 "" H 4900 7350 50  0001 C CNN
+	1    4900 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOET.DE:M20-Jumper.2 JP18
+U 1 1 649934AA
+P 6000 6900
+F 0 "JP18" H 6000 7125 50  0000 C CNN
+F 1 "#S" H 6000 7034 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6000 7000 50  0001 C CNN
+F 3 "" H 6000 7000 50  0001 C CNN
+	1    6000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 7350 4900 7400
+Wire Wire Line
+	4900 7400 6950 7400
+Connection ~ 6950 7400
+Wire Wire Line
+	3800 3550 4150 3550
+Text Label 3850 3550 0    50   ~ 0
+PH011
+Wire Wire Line
+	5150 7250 5500 7250
+Text Label 5200 7250 0    50   ~ 0
+PH011
+Text GLabel 5250 1250 2    50   Input ~ 0
+Bl.DTR
+$Comp
+L Connector:TestPoint D.?
+U 1 1 649D3971
+P 4500 7250
+AR Path="/61F921A8/649D3971" Ref="D.?"  Part="1" 
+AR Path="/626150ED/649D3971" Ref="D.2"  Part="1" 
+F 0 "D.2" H 4603 7322 50  0000 C CNN
+F 1 "TestPoint" V 4604 7322 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4700 7250 50  0001 C CNN
+F 3 "~" H 4700 7250 50  0001 C CNN
+	1    4500 7250
+	-1   0    0    1   
+$EndComp
+Text GLabel 4300 7250 0    50   Output ~ 0
+Bl.DTR
+Wire Wire Line
+	4300 7250 4500 7250
+Connection ~ 4500 7250
+Wire Wire Line
+	4500 7250 4650 7250
+Text GLabel 12400 1250 0    50   Output ~ 0
+V24:RX
+Wire Wire Line
+	12400 1250 12750 1250
+Text Label 12500 1250 0    50   ~ 0
+PH030
+$Comp
+L LOET.DE:75189 U132
+U 1 1 649FD84E
+P 12750 1250
+F 0 "U132" H 13050 1567 50  0000 C CNN
+F 1 "75189" H 13050 1476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 13045 1380 50  0001 C CNN
+F 3 "" H 13045 1380 50  0001 C CNN
+	1    12750 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 6950 2    50   Input ~ 0
+V24:TX
+Wire Wire Line
+	7700 6950 8000 6950
+Text Label 7750 6950 0    50   ~ 0
+PH029
+Text GLabel 12400 1950 0    50   Output ~ 0
+V24:DSR
+Text Label 12500 1950 0    50   ~ 0
+PH026
+$Comp
+L LOET.DE:75189 U132
+U 4 1 65096D62
+P 12750 1950
+F 0 "U132" H 13050 2267 50  0000 C CNN
+F 1 "75189" H 13050 2176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 13045 2080 50  0001 C CNN
+F 3 "" H 13045 2080 50  0001 C CNN
+	4    12750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 1950 12750 1950
+Text GLabel 8000 7150 2    50   Input ~ 0
+V24:RTS
+Wire Wire Line
+	7700 7150 8000 7150
+Text Label 7750 7150 0    50   ~ 0
+PH028
+$Comp
+L LOET.DE:75189 U132
+U 3 1 6585DC5C
+P 12750 2600
+F 0 "U132" H 13050 2917 50  0000 C CNN
+F 1 "75189" H 13050 2826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 13045 2730 50  0001 C CNN
+F 3 "" H 13045 2730 50  0001 C CNN
+	3    12750 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 12400 2600 0    50   Output ~ 0
+V24:CTS
+Text Label 12500 2600 0    50   ~ 0
+PH027
+Wire Wire Line
+	12400 2600 12750 2600
+$Comp
+L LOET.DE:75189 U132
+U 2 1 65B0C07D
+P 12750 3250
+F 0 "U132" H 13050 3567 50  0000 C CNN
+F 1 "75189" H 13050 3476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 13045 3380 50  0001 C CNN
+F 3 "" H 13045 3380 50  0001 C CNN
+	2    12750 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 12400 3250 0    50   Output ~ 0
+V24:TXCKB
+Text Label 12500 3250 0    50   ~ 0
+PH002
+Wire Wire Line
+	12400 3250 12750 3250
+$Comp
+L LOET.DE:8251 U22
+U 1 1 636C1C3D
+P 3250 1900
+F 0 "U22" H 3250 3081 50  0000 C CNN
+F 1 "8251" H 3250 2990 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 2900 2900 50  0001 C CNN
+F 3 "" H 2900 2900 50  0001 C CNN
+	1    3250 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 2500 2    50   Input ~ 0
+BL.SerClk
+Wire Wire Line
+	4550 2500 4250 2500
+Text GLabel 5650 6050 2    50   Input ~ 0
+SerClk
+Text GLabel 5650 4250 2    50   Output ~ 0
+SER_TXC
+Wire Wire Line
+	3800 4250 5650 4250
+Text GLabel 5650 5300 2    50   Input ~ 0
+SER_TXC
+Text GLabel 5650 5800 2    50   Output ~ 0
+SER_TXC
+Wire Wire Line
+	3800 4550 4150 4550
+Text Label 3850 4550 0    50   ~ 0
+PH020
+Wire Wire Line
+	6650 5300 7000 5300
+Text Label 6700 5300 0    50   ~ 0
+PH020
+Wire Wire Line
+	3800 3750 4150 3750
+Text Label 3850 3750 0    50   ~ 0
+PH010
+Wire Wire Line
+	5400 6900 5750 6900
+Text Label 5450 6900 0    50   ~ 0
+PH010
+Wire Wire Line
+	3800 3450 4150 3450
+Text Label 3850 3450 0    50   ~ 0
+PH008
+Text Label 13450 1950 0    50   ~ 0
+PH008
+Wire Wire Line
+	13350 1950 13700 1950
+$Comp
+L power:GND #PWR0817
+U 1 1 67CC030A
+P 9300 5250
+F 0 "#PWR0817" H 9300 5000 50  0001 C CNN
+F 1 "GND" V 9305 5122 50  0000 R CNN
+F 2 "" H 9300 5250 50  0001 C CNN
+F 3 "" H 9300 5250 50  0001 C CNN
+	1    9300 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 5250 9300 5250
+$Comp
+L power:GND #PWR0818
+U 1 1 67CEF084
+P 6300 6900
+F 0 "#PWR0818" H 6300 6650 50  0001 C CNN
+F 1 "GND" V 6305 6772 50  0000 R CNN
+F 2 "" H 6300 6900 50  0001 C CNN
+F 3 "" H 6300 6900 50  0001 C CNN
+	1    6300 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 6900 6300 6900
+Wire Wire Line
+	3800 3900 4150 3900
+Text Label 3850 3900 0    50   ~ 0
+PH009
+Wire Wire Line
+	7000 6900 6950 6900
+Wire Wire Line
+	6950 6900 6950 6950
+Wire Wire Line
+	6950 7000 7000 7000
+Text Label 6650 6950 0    50   ~ 0
+PH009
+Wire Wire Line
+	6600 6950 6950 6950
+Connection ~ 6950 6950
+Wire Wire Line
+	6950 6950 6950 7000
+NoConn ~ 3800 4150
+Wire Wire Line
+	3800 3650 4150 3650
+Text Label 3850 3650 0    50   ~ 0
+PH007
+Wire Wire Line
+	8650 5500 9000 5500
+Text Label 8700 5500 0    50   ~ 0
+PH007
+Wire Wire Line
+	9000 5500 9000 5350
+NoConn ~ 3800 4650
+Wire Wire Line
+	3800 4350 4150 4350
+Text Label 3850 4350 0    50   ~ 0
+PH004
+$Comp
+L Device:R_Network07_Split RP24
+U 6 1 67DF1F15
+P 8850 1300
+F 0 "RP24" V 8950 1300 50  0000 C CNN
+F 1 "27k" V 8750 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 8770 1300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8850 1300 50  0001 C CNN
+	6    8850 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split RP24
+U 3 1 67E9EF25
+P 12600 3500
+F 0 "RP24" V 12700 3500 50  0000 C CNN
+F 1 "27k" V 12500 3500 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12520 3500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12600 3500 50  0001 C CNN
+	3    12600 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 5250 8750 5250
+Text Label 8450 5250 0    50   ~ 0
+PH006
+Text Label 13450 2600 0    50   ~ 0
+PH006
+Wire Wire Line
+	13350 2600 13700 2600
+Text Label 13450 3250 0    50   ~ 0
+PH005
+Wire Wire Line
+	13350 3250 13700 3250
+Text Label 7550 5300 0    50   ~ 0
+PH005
+Wire Wire Line
+	7500 5300 7800 5300
+$Comp
+L Device:R_Network07_Split RP24
+U 5 1 68068EC6
+P 8850 2050
+F 0 "RP24" V 8950 2050 50  0000 C CNN
+F 1 "27k" V 8750 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 8770 2050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8850 2050 50  0001 C CNN
+	5    8850 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split RP24
+U 4 1 68072FF3
+P 12600 2850
+F 0 "RP24" V 12700 2850 50  0000 C CNN
+F 1 "27k" V 12500 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12520 2850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12600 2850 50  0001 C CNN
+	4    12600 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split RP24
+U 2 1 680846C0
+P 12600 2200
+F 0 "RP24" V 12700 2200 50  0000 C CNN
+F 1 "27k" V 12500 2200 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12520 2200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12600 2200 50  0001 C CNN
+	2    12600 2200
+	0    -1   -1   0   
+$EndComp
+Text Label 13450 1250 0    50   ~ 0
+PH004
+Wire Wire Line
+	13350 1250 13700 1250
+$Comp
+L power:-12V #PWR?
+U 1 1 680BFA40
+P 12450 1500
+AR Path="/62047FF5/680BFA40" Ref="#PWR?"  Part="1" 
+AR Path="/626150ED/680BFA40" Ref="#PWR0810"  Part="1" 
+F 0 "#PWR0810" H 12450 1600 50  0001 C CNN
+F 1 "-12V" V 12450 1750 50  0000 C CNN
+F 2 "" H 12450 1500 50  0001 C CNN
+F 3 "" H 12450 1500 50  0001 C CNN
+	1    12450 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split RP24
+U 1 1 680C50A3
+P 12600 1500
+F 0 "RP24" V 12700 1500 50  0000 C CNN
+F 1 "27k" V 12500 1500 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12520 1500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12600 1500 50  0001 C CNN
+	1    12600 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 7100 6950 7100
+Wire Wire Line
+	6950 7100 6950 7150
+Wire Wire Line
+	6950 7200 7000 7200
+Wire Wire Line
+	6950 7150 6000 7150
+Wire Wire Line
+	6000 7150 6000 7000
+Connection ~ 6950 7150
+Wire Wire Line
+	6950 7150 6950 7200
+Text Label 6650 7150 0    50   ~ 0
+PH012
+Text Label 6650 7400 0    50   ~ 0
+PH013
+Wire Bus Line
+	2000 2000 2000 4700
+Wire Bus Line
+	2250 1100 2250 4100
+$EndSCHEMATC

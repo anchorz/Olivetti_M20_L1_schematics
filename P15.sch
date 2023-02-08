@@ -1,0 +1,185 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 16 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Network07_Split RP?
+U 5 1 63E49EF1
+P 5700 1600
+AR Path="/623F8DAC/63E49EF1" Ref="RP?"  Part="6" 
+AR Path="/62047FF5/63E49EF1" Ref="RP1"  Part="6" 
+AR Path="/6295ECAF/63E49EF1" Ref="RP8"  Part="5" 
+F 0 "RP8" H 5600 1800 50  0000 L CNN
+F 1 "1k" H 5798 1547 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 5620 1600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5700 1600 50  0001 C CNN
+	5    5700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP?
+U 6 1 62188486
+P 5850 1600
+AR Path="/623F8DAC/62188486" Ref="RP?"  Part="7" 
+AR Path="/62047FF5/62188486" Ref="RP1"  Part="7" 
+AR Path="/6295ECAF/62188486" Ref="RP8"  Part="6" 
+F 0 "RP8" H 5800 1800 50  0000 L CNN
+F 1 "1k" H 5948 1547 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 5770 1600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5850 1600 50  0001 C CNN
+	6    5850 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5850 1750
+NoConn ~ 5700 1750
+$Comp
+L 74xx:74LS05 U50
+U 1 1 6241D7C0
+P 7100 3150
+F 0 "U50" H 7100 3467 50  0000 C CNN
+F 1 "'S05" H 7100 3376 50  0000 C CNN
+F 2 "" H 7100 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 7100 3150 50  0001 C CNN
+	1    7100 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6800 3150
+NoConn ~ 7400 3150
+$Comp
+L Device:R_Network07_Split RP12
+U 2 1 63E49F2B
+P 6150 1600
+F 0 "RP12" H 6050 1800 50  0000 L CNN
+F 1 "1k" H 6248 1547 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6070 1600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6150 1600 50  0001 C CNN
+	2    6150 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6150 1750
+$Comp
+L Device:R_Network07_Split RP12
+U 3 1 63E49F2C
+P 6350 1600
+F 0 "RP12" H 6250 1800 50  0000 L CNN
+F 1 "1k" H 6448 1547 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6270 1600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6350 1600 50  0001 C CNN
+	3    6350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP12
+U 7 1 624590F2
+P 6600 1600
+F 0 "RP12" H 6500 1800 50  0000 L CNN
+F 1 "1k" H 6698 1547 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6520 1600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6600 1600 50  0001 C CNN
+	7    6600 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6350 1750
+NoConn ~ 6600 1750
+$Comp
+L 74xx_IEEE:7416 U51
+U 3 1 620BB83B
+P 2000 3100
+F 0 "U51" H 2000 3566 50  0000 C CNN
+F 1 "'16" H 2000 3475 50  0000 C CNN
+F 2 "" H 2000 3100 50  0001 C CNN
+F 3 "" H 2000 3100 50  0001 C CNN
+	3    2000 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1450 3100
+NoConn ~ 2550 3100
+$Comp
+L 74xx_IEEE:7416 U51
+U 4 1 620C3C4A
+P 3200 3100
+F 0 "U51" H 3200 3566 50  0000 C CNN
+F 1 "'16" H 3200 3475 50  0000 C CNN
+F 2 "" H 3200 3100 50  0001 C CNN
+F 3 "" H 3200 3100 50  0001 C CNN
+	4    3200 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2650 3100
+NoConn ~ 3750 3100
+$Comp
+L 74xx_IEEE:7416 U51
+U 5 1 620CDA0A
+P 4400 3100
+F 0 "U51" H 4400 3566 50  0000 C CNN
+F 1 "'16" H 4400 3475 50  0000 C CNN
+F 2 "" H 4400 3100 50  0001 C CNN
+F 3 "" H 4400 3100 50  0001 C CNN
+	5    4400 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3850 3100
+NoConn ~ 4950 3100
+$Comp
+L 74xx_IEEE:7416 U30
+U 2 1 620D62BC
+P 5600 3100
+F 0 "U30" H 5600 3566 50  0000 C CNN
+F 1 "'16" H 5600 3475 50  0000 C CNN
+F 2 "" H 5600 3100 50  0001 C CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+	2    5600 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5050 3100
+NoConn ~ 6150 3100
+NoConn ~ 24150 10950
+$Comp
+L LOET.DE:75189 U153
+U 4 1 650DFED6
+P 1950 1450
+F 0 "U153" H 2180 1096 50  0000 L CNN
+F 1 "75189" H 2180 1005 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2245 1580 50  0001 C CNN
+F 3 "" H 2245 1580 50  0001 C CNN
+	4    1950 1450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1950 1450
+NoConn ~ 1950 1700
+NoConn ~ 2550 1450
+$Comp
+L Device:R_Network07_Split RP15
+U 1 1 643632A0
+P 5200 1600
+F 0 "RP15" H 5288 1646 50  0000 L CNN
+F 1 "1k" H 5288 1555 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 5120 1600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5200 1600 50  0001 C CNN
+	1    5200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5P #PWR0663
+U 1 1 643642FF
+P 5200 1450
+F 0 "#PWR0663" H 5200 1300 50  0001 C CNN
+F 1 "+5P" H 5215 1623 50  0000 C CNN
+F 2 "" H 5200 1450 50  0001 C CNN
+F 3 "" H 5200 1450 50  0001 C CNN
+	1    5200 1450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5200 1750
+$EndSCHEMATC
